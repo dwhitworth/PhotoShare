@@ -10,7 +10,7 @@
                               id: 'unfollow-button',
                               method: :post %>
     <% else %>
-      <%= = link_to 'Follow', follow_user_path,
+      <%= link_to 'Follow', follow_user_path,
                         remote: true,
                         class: 'btn follow-button',
                         id: 'follow-button',

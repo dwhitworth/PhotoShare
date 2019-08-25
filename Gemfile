@@ -53,6 +53,7 @@ group :development, :test do
   gem 'capybara', '>= 2.15'
   gem 'factory_bot_rails'
   gem 'database_cleaner'
+  gem 'pry-byebug'
 end
 
 group :development do
