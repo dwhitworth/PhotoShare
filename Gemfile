@@ -32,6 +32,8 @@ gem 'mini_magick', '~> 4.8'
 
 gem 'devise'
 
+gem 'simple_form'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
