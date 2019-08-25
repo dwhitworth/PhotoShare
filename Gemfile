@@ -34,6 +34,8 @@ gem 'devise'
 
 gem 'simple_form'
 
+gem 'image_processing', '~> 1.2'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
