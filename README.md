@@ -23,6 +23,7 @@ RSpec and Capybara and FactoryBot are used for feature testing
 
 ## User Stories
 **Bold indicates in progress**  
+
 ###USER NOT SIGNED IN:
 
 - ~~As a non-signed-in user without an account, I can register a new account~~
