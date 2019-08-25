@@ -11,5 +11,7 @@ Rails.application.routes.draw do
     end
   end
 
+  root :to => "devise/sessions#new"
+
   resources :posts
 end
