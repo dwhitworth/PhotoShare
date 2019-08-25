@@ -19,10 +19,10 @@ This is a social media application for sharing photos with other users of the ap
 
 ## Test suite
 RSpec and Capybara and FactoryBot are used for feature testing
-`rspec spec/features/<filename>` to run tests for individual features
+- `rspec spec/features/<filename>` to run tests for individual features
 
 ## User Stories
-**Bold indicates in progress**
+**Bold indicates in progress**  
 ###USER NOT SIGNED IN:
 
 - ~~As a non-signed-in user without an account, I can register a new account~~
