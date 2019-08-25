@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'relationships/follow_user'
+  get 'relationships/unfollow_user'
   get 'profiles/show'
   devise_for :users, :controllers => { registrations: 'registrations' }
 
