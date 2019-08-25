@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'profiles/show'
   devise_for :users, :controllers => { registrations: 'registrations' }
 
   devise_scope :user do
@@ -14,4 +15,6 @@ Rails.application.routes.draw do
   root :to => "devise/sessions#new"
 
   resources :posts
+
+  get ':user_name', to: 'profiles#show', as: :profile
 end
